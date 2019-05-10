@@ -17,9 +17,9 @@
 
   <keywords>Custom URL Scheme, URLscheme, URL scheme, Custom URL, Launch My App, Launch App</keywords>
 
-  <repo>https://github.com/EddyVerbruggen/Custom-URL-scheme.git</repo>
+  <repo>https://github.com/Bitcoin-com/Custom-URL-scheme.git</repo>
 
-  <issue>https://github.com/EddyVerbruggen/Custom-URL-scheme/issues</issue>
+  <issue>https://github.com/Bitcoin-com/Custom-URL-scheme/issues</issue>
 
   <preference name="URL_SCHEME" />
   <preference name="SECOND_URL_SCHEME" />

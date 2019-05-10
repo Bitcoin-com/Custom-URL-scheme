@@ -76,6 +76,8 @@ Don't shoot yourself in the foot - use the CLI! That being said, here goes:
     <key>CFBundleURLSchemes</key>
     <array>
       <string>URL_SCHEME</string>
+      <string>SECOND_URL_SCHEME</string>
+      <string>THIRD_URL_SCHEME</string>
     </array>
   </dict>
 </array>
@@ -98,6 +100,18 @@ Don't shoot yourself in the foot - use the CLI! That being said, here goes:
 ```xml
 <intent-filter>
   <data android:scheme="URL_SCHEME"/>
+  <action android:name="android.intent.action.VIEW" />
+  <category android:name="android.intent.category.DEFAULT" />
+  <category android:name="android.intent.category.BROWSABLE" />
+</intent-filter>
+<intent-filter>
+  <data android:scheme="SECOND_URL_SCHEME"/>
+  <action android:name="android.intent.action.VIEW" />
+  <category android:name="android.intent.category.DEFAULT" />
+  <category android:name="android.intent.category.BROWSABLE" />
+</intent-filter>
+<intent-filter>
+  <data android:scheme="THIRD_URL_SCHEME"/>
   <action android:name="android.intent.action.VIEW" />
   <category android:name="android.intent.category.DEFAULT" />
   <category android:name="android.intent.category.BROWSABLE" />
